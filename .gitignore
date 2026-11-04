@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+
+# production build
+dist/
+
+# environment variables
+.env
+.env.local
+.env.*.local
+
+# editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Vercel
+.vercel/
+
+# logs
+*.log
+npm-debug.log*
